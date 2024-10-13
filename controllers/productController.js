@@ -10,7 +10,7 @@ const getProducts = async (req, res) => {
     }
 };
 
-// Get product by ID (additional function as an example)
+// Get product by ID 
 const getProductById = async (req, res) => {
     const { id } = req.params;
     try {
